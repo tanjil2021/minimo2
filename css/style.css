@@ -1,0 +1,90 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	margin: 25px auto;
+}
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo img {
+	width: 100%;
+	margin-top: 3px;
+}
+.menu {
+	width: 60%;
+	float: right;
+}
+.menu ul {
+	float: right;
+	margin:12px 0 10px 0;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+	color: #626262;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0 40px;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: black;
+	transition: .4s;
+}
+.banner {
+
+}
+.bnr_img {
+
+}
+.bnr_img img {
+	width: 100%;
+}
+section {
+
+}
+.wrapper2 {
+    width: 80%;
+    margin: 0 auto;
+}
+.light {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #C8C3B9;
+}
+.perfect {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+    margin:17px 0 25px 0;
+}
+.perfect_p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
