@@ -109,18 +109,44 @@ section {
 .boxes:nth-child(even) {
 	margin-left: 5%;
 }
-.sign_up {
+.news_container {
 	text-align: center;
 	background-color: #F0F0F0;
 	width: 100%;
-	height: 288px;
+	height: 320px;
+}
+.sign_up {
+	width: 60%;
+	text-align: center;
+	margin:0 auto;
+
 }
 .for_form {
-	
+    position: relative;
+    margin-top: 93px;
+    width: 420px;
+    margin-left: 193px;
+}
+.for_form input {
+	border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 400px;
+    /*position: absolute;*/
+    right: 470px;
 }
 .sign_up button {
-	border: none;
-
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 7px;
+}
+.news {
+	width: 60%;
+    padding-left: 150px;
 }
 .news h2 {
     padding-top: 72px;
@@ -128,6 +154,7 @@ section {
 .learn_more {
 	padding-top: 60px;
     padding-left: 42%;
+    margin-bottom: 100px;
 }
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -150,4 +177,42 @@ section {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+footer {
+    background-color: #F0F0F0;
+    height: 100px;
+}
+.terms {
+	width: 35%;
+    float: left;
+    padding-top: 38px;
+}
+.terms ul {
+    list-style: none;
+   
+}
+.terms ul li {
+    margin-right: 12px; 
+     float: left;
+}
+.terms ul li a {
+    text-decoration: none;
+    color: #626262;
+    font-weight: 400;
+}
+.social {
+    width: 50%;
+    float: right;
+    padding-top: 38px;
+}
+.social ul {
+    float: right;
+    list-style: none;
+}
+.social ul li {
+    float: left;
+    margin-left: 10px;
+}
+.social ul li a {
+    display: inline-block;
 }
